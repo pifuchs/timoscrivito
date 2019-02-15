@@ -26,7 +26,7 @@ function Logo({ scrolled, navigationStyle }) {
 
   return (
     <Scrivito.LinkTag to={Scrivito.Obj.root()} className="navbar-brand">
-      <Scrivito.ImageTag content={logo} alt="Logo" />
+      <Scrivito.ImageTag content={logo} alt="Scrivito-Logo" />
     </Scrivito.LinkTag>
   );
 }
